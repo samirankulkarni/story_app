@@ -1,0 +1,54 @@
+
+[2024-12-28T07:07:52.409Z]
+Method: GET
+Path: /?gender=son&topic=dog
+Query Params: {"gender":"son","topic":"dog"}
+IP Address: ::1
+User Agent: PostmanRuntime/7.43.0
+Hostname: localhost
+-------------------------------------------------------
+
+[2024-12-28T07:08:36.707Z]
+Method: GET
+Path: /?gender=son&topic=cute%20lion
+Query Params: {"gender":"son","topic":"cute lion"}
+IP Address: ::1
+User Agent: PostmanRuntime/7.43.0
+Hostname: localhost
+-------------------------------------------------------
+
+[2024-12-28T07:12:41.716Z]
+Method: GET
+Path: /?gender=daughter&topic=brave%20prince
+Query Params: {"gender":"daughter","topic":"brave prince"}
+IP Address: ::ffff:127.0.0.1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+Hostname: localhost
+-------------------------------------------------------
+
+[2024-12-28T07:14:39.907Z]
+Method: GET
+Path: /?gender=daughter&topic=brave%20prince
+Query Params: {"gender":"daughter","topic":"brave prince"}
+IP Address: ::ffff:127.0.0.1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+Hostname: localhost
+-------------------------------------------------------
+
+[2024-12-28T07:37:27.208Z]
+Method: GET
+Path: /?gender=son&topic=ghost
+Query Params: {"gender":"son","topic":"ghost"}
+IP Address: ::ffff:127.0.0.1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+Hostname: localhost
+-------------------------------------------------------
+
+[2024-12-28T07:37:55.647Z]
+Method: GET
+Path: /?gender=daughter&topic=ghost
+Query Params: {"gender":"daughter","topic":"ghost"}
+IP Address: ::ffff:127.0.0.1
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+Hostname: localhost
+-------------------------------------------------------

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedtime Story Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Banner Section -->
+    <header class="banner">
+        <img src="banner.jpg" alt="Bedtime Story Banner">
+    </header>
+
+    <!-- Main Form Section -->
+    <main class="form-container">
+        <h1>Bedtime Story Generator</h1>
+        <form id="storyForm">
+            <label for="gender">Select Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select Gender</option>
+                <option value="son">Son</option>
+                <option value="daughter">Daughter</option>
+            </select>
+
+            <label for="topic">Select Topic:</label>
+            <input type="text" id="topic" name="topic" required placeholder="e.g. Brave Prince">
+
+            <button type="submit">Generate Story</button>
+        </form>
+        <div id="storyOutput"></div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Samirans Bedtime Story Generator</p>
+        <p>Contact us at: <a href="mailto:info@example.com">samirankulkarni7@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
